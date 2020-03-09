@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Oxanium&display=swap");
+
+* {
+	box-sizing: border-box;
+	font-family: "Oxanium", cursive;
+}
+div {
+	margin: 5px;
+}
+#root {
+	position: relative;
+}
+
+#header {
+	border-bottom: solid 1px cadetblue;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#productNumber {
+	display: inline-block;
+	width: 20px;
+	text-align: center;
+}
+
+#main {
+	margin-top: 100px;
+	border: solid 1px darkslategrey;
+	border-radius: 4px;
+	background-color: azure;
+	color: cadetblue;
+	padding: 20px;
+	width: 500px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	width: 100px;
+}
+
+button {
+	height: 40px;
+	padding: 0 30px;
+	margin: 10px 20px 10px 20px;
+	border: none;
+	border: 1px solid azure;
+	background-color: darkslategrey;
+	color: azure;
+	border-radius: 2px;
+	font-size: 14px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: 0;
+}
+
+:disabled {
+	opacity: 0.3;
+}
+
+.functionButton {
+	margin: 10px 20px 0 0;
+	width: 140px;
+	padding: 0;
+}
+
+#controls {
+	border-top: solid 1px cadetblue;
+	padding-top: 15px;
+}
+
+#warningText {
+	margin-top: 30px;
+	text-align: center;
+}
